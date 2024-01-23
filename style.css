@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+
 }
 
 h1 {
@@ -36,4 +37,192 @@ h1 {
     padding: 0 1.25rem .625rem 1.25rem;
 }
 
-/* dia 1 parou em 59:39*/
+.sidebar ul li {
+    padding: .625rem 0;
+    cursor: pointer;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .875rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: .25rem .5rem;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: .875rem;
+    margin-top: .625rem;
+}
+
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    display: flex;
+    margin-right: .625rem;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 1.25rem .825rem;
+}
+
+.library .library__button .fa {
+    font-weight: 1.25rem;
+    margin-right: .825rem;
+    font-weight: 300;
+    padding-right: .5rem;
+}
+
+.library .library__content .fa-plus {
+    margin: 1.5rem .625rem;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.25rem;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: .825rem;
+    margin: .5rem 0;
+    padding: 1rem 1.25rem;
+    border-radius: .625rem;
+}
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text {
+    padding-bottom: .825rem;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist__content .title {
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: .75rem;
+}
+
+.section-playlist__content .section-playlist__button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 1.25rem;
+    font-size: .75rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: .625rem;
+    margin-top: .75rem;
+    border: 0px;
+    width: 7.063rem;
+}
+
+.sidebar .cookies {
+    margin: 1.563rem 1.25rem;
+}
+
+.sidebar .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: .625rem;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages__button {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 10.625rem;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 1.25rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-width: 620px;
+    user-select: none;
+    color: white;
+    width: 100vw;
+    margin: .25rem;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: space-between;
+    position: relative;
+    padding: 0.688rem 1.5rem .438rem .938rem;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    z-index: 1;
+}
+
+.footer__content .footer__text .footer__title{
+    margin-block: 0px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer__content .footer__text .footer__subtitle{
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer__content .footer__button {
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    align-self: center;
+    background-color: #fff;
+}
